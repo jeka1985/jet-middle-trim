@@ -1,0 +1,11 @@
+.wrapper {
+  width: 100%;
+  display: inline-flex;
+  overflow: hidden;
+}
+
+.cut {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

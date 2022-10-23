@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "incremental": true,
+    "baseUrl": "./",
+    "composite": true,
+    "outDir": "dist",
+    "target": "esnext",
+    "lib": ["es6", "dom"],
+  },
+  "include": ["global.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}
