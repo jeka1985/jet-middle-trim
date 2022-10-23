@@ -17,6 +17,7 @@ export const Span = memo<Props>(function Span(props) {
   
   return (
     <div
+      title={props.title}
       onCopy={copyText}
       className={cn(st.wrapper, props.className)}
       >
